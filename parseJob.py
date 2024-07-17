@@ -61,5 +61,5 @@ if __name__ == "__main__":
        createFile(comma_removed_company_details[0], comma_removed_company_details[1])
        print("Data successfully extracted and input to csv document.")
     else:
-       print("Failed to extract job details.")
+       print("Failed to extract job details to file.")
 
