@@ -1,7 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import time
-import os
 
 def extract_job_details(linkedin_url):
     # Fetch the webpage content
