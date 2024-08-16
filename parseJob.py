@@ -11,7 +11,7 @@ def extract_job_details(linkedin_url):
     # Parse HTML content
     soup = BeautifulSoup(response.content, 'html.parser')
 
-#    # Extract company name, job title
+    # Extract company name, job title
     company_name = soup.find('a', {'class': 'topcard__org-name-link'}).text.strip()
     job_title = soup.find('h1', {'class': 'topcard__title'}).text.strip()
 
